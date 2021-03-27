@@ -1,0 +1,37 @@
+
+#treeview ul {
+    list-style: none;
+    padding-left: 1.75em;
+}
+#treeview ul li {
+    border-bottom-left-radius: 0.75em;
+    border-top-left-radius: 0.75em;
+    margin: 2px 0;
+    position: relative;
+}
+#treeview ul li a {
+    background-color: #eee;
+    border-radius: 50%;
+    color: #000;
+    display: inline-block;
+    height: 1.5em;
+    left: -1.5em;
+    line-height: 1.5em;
+    position: absolute;
+    text-align: center;
+    text-decoration: none;
+    width: 1.5em;
+}
+#treeview ul li a.plus {
+    background-color: #ded;
+}
+#treeview ul li a.minus {
+    background-color: #eee;
+}
+#treeview ul li a:active {
+    top: 1px;
+}
+#treeview ul li span {
+    display: inline-block;
+    margin: 0.25em 0.5em;
+}

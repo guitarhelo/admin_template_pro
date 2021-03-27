@@ -1,0 +1,87 @@
+
+
+#title {
+    text-align: center;
+}
+
+#resizeMe {
+    border-collapse: collapse;
+    border: 3px solid #ddd;
+
+}
+
+#resizeMe td,
+#resizeMe th {
+    border: 1px solid #ddd;
+    padding: 12px;
+    position: sticky;
+}
+
+#resizeMe tr:hover {
+    background-color: #ddd;
+}
+
+#resizeMe th {
+    padding: 10px;
+    text-align: center;
+    background-color: #4caf50;
+    color: white;
+}
+
+.opration {
+    text-align: center;
+}
+
+.button {
+    border: none;
+    outline: none;
+    font-size: 11px;
+    font-family: "Quicksand", sans-serif;
+    color: #f44336;
+    padding: 3px 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    border: 1px solid #f44336;
+    background-color: transparent;
+}
+
+.button:active {
+    border: 1px solid blue;
+}
+
+.table {
+    border-collapse: collapse;
+}
+.table, .table th, .table td {
+    border: 1px solid #ccc;
+}
+.table th, .table td {
+    padding: 0.5rem;
+}
+.table th {
+    position: relative;
+}
+.resizer {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 5px;
+    cursor: col-resize;
+    user-select: none;
+}
+.resizer:hover, .resizing {
+    border-right: 2px solid blue;
+}
+
+.resizable {
+    border: 1px solid gray;
+    height: 100px;
+    width: 100px;
+    position: relative;
+}
+.data-table{
+
+    margin-right: -25px;
+    margin-left: -26px;
+
+}
